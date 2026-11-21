@@ -15,7 +15,7 @@ import (
     "strconv"
     "time"
 
-    "example.com/portscan"
+    "github.com/m4rshmelad/portscan"
 )
 
 func main() {
@@ -58,11 +58,12 @@ func main() {
 }
 ```
 
-Путь модуля `example.com/portscan` используется для локального подключения. Для запуска примера сохраните его как `main.go` в соседнем каталоге и выполните там следующие команды.
+Путь модуля `github.com/m4rshmelad/portscan` используется для локального подключения. Для запуска примера сохраните его как `main.go` в соседнем каталоге и выполните там следующие команды.
 
 ```sh
 go mod init example.com/demo
 go get github.com/m4rshmelad/portscan
+
 go run .
 ```
 
