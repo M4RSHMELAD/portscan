@@ -62,7 +62,7 @@ func main() {
 
 ```sh
 go mod init example.com/demo
-go mod edit "-require=example.com/portscan@v0.0.0" "-replace=example.com/portscan=../portscan"
+go get github.com/m4rshmelad/portscan
 go run .
 ```
 
